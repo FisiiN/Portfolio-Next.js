@@ -2,11 +2,11 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/pic.png'
-import Animated from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import Circle from '@/components/Circle'
 import TransitionEffect from '@/components/TransitionEffect'
+import Animated from '@/components/AnimatedText'
 
 export default function Home() {
   return (
