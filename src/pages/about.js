@@ -8,6 +8,7 @@ import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
 import TransitionEffect from '@/components/TransitionEffect'
 
+
 const AnimatedNumber = ({value}) =>{
 const ref = useRef(null)
 
