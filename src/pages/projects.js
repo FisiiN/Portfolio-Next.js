@@ -49,7 +49,7 @@ const Projects = () => {
   return (
     <>
          <Head>
-            <title>FisiiN'z | Projects Page</title>
+            <title>{`FisiiN'z | Projects Page`}</title>
             <meta name="description" content="any description"/>
         </Head>
         <TransitionEffect />

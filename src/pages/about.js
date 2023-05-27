@@ -39,7 +39,7 @@ const about = () => {
   return (
     <>
         <Head>
-            <title>FisiiN'z | About Page</title>
+            <title>{`FisiiN'z | About Page`}</title>
             <meta name="description" content="any description"/>
         </Head>
         <TransitionEffect />
@@ -53,21 +53,21 @@ const about = () => {
 
                         <h2 className='mb-16 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                         <p className='my-10 font-medium'>
-                        - Hi, I'm Hafiseen Ali, a junior web developer with a passion for creating beautiful, functional, 
-                        and user-centered digital experiences. I am always looking for new and innovative ways to bring my clients' visions to life.</p>
+                        {`- Hi, I'm Hafiseen Ali, a junior web developer with a passion for creating beautiful, functional, 
+                        and user-centered digital experiences. I am always looking for new and innovative ways to bring my clients' visions to life.`}</p>
 
                         <p className='my-16 font-medium'>
-                        - Although I did't graduated in facalty that are related to this position, also I don't have any experience as a programer or developer, but I like
-                        technology. so it leads me to be interested in working in this position.</p> 
+                        {`- Although I did't graduated in facalty that are related to this position, also I don't have any experience as a programer or developer, but I like
+                        technology. so it leads me to be interested in working in this position.`}</p> 
 
                         <p className='my-16 font-medium'>
-                        - I start to learn via websites and Youtube. I practice making a mini project. Of course, I will still be developing in any project. I believe logical thinking, analytical skills and
-                        good responsibility are my qualifications</p>
+                        {`- I start to learn via websites and Youtube. I practice making a mini project. Of course, I will still be developing in any project. I believe logical thinking, analytical skills and
+                        good responsibility are my qualifications`}</p>
 
                         <p className='mt-10 font-medium'>
-                        - I bring my commitment to design excellence and user-centered thinking to 
+                        {`- I bring my commitment to design excellence and user-centered thinking to 
                         every project I work on. I look forward to the opportunity to bring my skills, passion and do my best
-                        for the most benefit to the company
+                        for the most benefit to the company`}
                         </p>
 
                     </div>
@@ -87,19 +87,19 @@ const about = () => {
                             <span className='inline-block text-4xl font-bold md:text-3xl sm:text-2xl xs:text-1xl'>
                                 <AnimatedNumber value={6}/>+ Month
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>self-Taught Experiences</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>{`self-Taught Experiences`}</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center pt-8 '>
                             <span className='inline-block text-4xl font-bold md:text-3xl sm:text-2xl xs:text-1xl'>
                                 <AnimatedNumber value={640}/>
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>TOEIC score</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>{`TOEIC score`}</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center pt-8 '>
                             <span className='inline-block text-4xl font-bold md:text-3xl sm:text-2xl xs:text-1xl'>
                                 <AnimatedNumber value={6}/>+ (Mini)
                             </span>
-                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>Projects Completed</h2>
+                            <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>{`Projects Completed`}</h2>
                         </div>
                     </div>
 
