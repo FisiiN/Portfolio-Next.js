@@ -51,7 +51,7 @@ const about = () => {
                 <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                     <div className='col-span-3 flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
 
-                        <h2 className='mb-16 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
+                        <h2 className='mb-16 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>{`Biography`}</h2>
                         <p className='my-10 font-medium'>
                         {`- Hi, I'm Hafiseen Ali, a junior web developer with a passion for creating beautiful, functional, 
                         and user-centered digital experiences. I am always looking for new and innovative ways to bring my clients' visions to life.`}</p>
@@ -85,7 +85,7 @@ const about = () => {
                     <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                         <div className='flex flex-col items-end justify-center pt-8 xl:items-center'>
                             <span className='inline-block text-4xl font-bold md:text-3xl sm:text-2xl xs:text-1xl'>
-                                <AnimatedNumber value={6}/>+ Month
+                                <AnimatedNumber value={6}/>{`+ Month`}
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>{`self-Taught Experiences`}</h2>
                         </div>
@@ -97,7 +97,7 @@ const about = () => {
                         </div>
                         <div className='flex flex-col items-end justify-center pt-8 '>
                             <span className='inline-block text-4xl font-bold md:text-3xl sm:text-2xl xs:text-1xl'>
-                                <AnimatedNumber value={6}/>+ (Mini)
+                                <AnimatedNumber value={6}/>{`+ (Mini)`}
                             </span>
                             <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg xm:text-base xs:text-sm'>{`Projects Completed`}</h2>
                         </div>
